@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:gameapptask/core/constants/color_constants.dart';
 import 'package:gameapptask/core/constants/padding_constants.dart';

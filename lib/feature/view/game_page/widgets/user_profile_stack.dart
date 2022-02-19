@@ -10,6 +10,7 @@ class UserProfileStack extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double _radius = 10;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       mainAxisAlignment: MainAxisAlignment.center,
@@ -17,7 +18,7 @@ class UserProfileStack extends StatelessWidget {
         Expanded(
           flex: 3,
           child: ClipRRect(
-            borderRadius: BorderRadius.circular(10),
+            borderRadius: BorderRadius.circular(_radius),
             child: Image.asset(
               userImg,
               fit: BoxFit.fill,

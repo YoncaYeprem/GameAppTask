@@ -15,14 +15,16 @@ class GameAppbar extends StatefulWidget {
 }
 
 class _GameAppbarState extends State<GameAppbar> {
+  double _blurRadius = 5;
+
   @override
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
         color: widget.timer > 5 ? Colors.green : Colors.red,
-        boxShadow: const <BoxShadow>[
+        boxShadow: <BoxShadow>[
           BoxShadow(
-              color: Colors.black54, blurRadius: 5.0, offset: Offset(0.0, 0.5))
+              color: Colors.black54, blurRadius: _blurRadius, offset: Offset(0.0, 0.5))
         ],
       ),
       padding: PaddingConstants.PaddingLow.padding,
