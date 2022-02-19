@@ -1,5 +1,11 @@
 # gameapptask
 
+![taskPortrait](https://user-images.githubusercontent.com/70916991/154483371-01e395cb-cd4e-48da-8768-5ac9970dd37b.gif)
+
+![taskLandscape](https://user-images.githubusercontent.com/70916991/154483545-8930641a-8264-4c55-94a1-ca17e3b80a1c.gif)
+
+
+
 A new Flutter project.
 
 ## Getting Started
